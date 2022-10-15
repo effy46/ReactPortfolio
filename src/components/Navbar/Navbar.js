@@ -14,24 +14,24 @@ const links = [
 
     {
         name: 'Home',
-        to: '/',
+        to: '/ReactPortfolio',
         active: 'home'
     },
     {
         name: 'About Me',
-        to: '/about',
+        to: '/ReactPortfolio/about',
         active: 'about'
     },
     {
         name: `${info.firstName} ${info.lastName}`,
         type: 'name',
-        to: '/',
+        to: '/ReactPortfolio',
         active: 'home'
     },
 
     {
         name: 'Portfolio',
-        to: '/portfolio',
+        to: '/ReactPortfolio/portfolio',
         active: 'portfolio'
     }
 ]

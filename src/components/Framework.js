@@ -25,8 +25,8 @@ export default function Framework() {
 
                 <Grid item flexGrow={1}>
                     <Routes>
-                        <Route exact path={'/'} element={<Home />} />
-                        <Route exact path={'/about'} element={<About />} />
+                        <Route exact path={'/ReactPortfolio/'} element={<Home />} />
+                        <Route exact path={'/ReactPortfolio/about'} element={<About />} />
                         {/*<Route exact path={'/portfolio'} element={<Portfolio/>}/>*/}
                     </Routes>
                 </Grid>
