@@ -1,0 +1,79 @@
+@import '../../App.scss';
+
+
+nav {
+  transition: all 250ms ease;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  width: 100%;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+}
+
+
+
+nav ul {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+
+}
+
+
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: all 250ms ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: all 250ms ease;
+  }
+}
+
+@media screen and (max-width: 550px) {
+
+  /*changes reflects on screen with a width of 550px and below*/
+  nav {
+    // padding: 1.5rem 1rem;
+    width: 100%;
+    box-shadow: 0px 1px 10px 1px var(--primary-shadow);
+
+
+    h1 {
+      font-size: 1rem;
+    }
+  }
+
+  nav ul {
+    text-align: center;
+    width: 100%;
+    margin-left: 1rem;
+
+  }
+
+  nav ul li {
+    margin: 1px;
+    font-size: small;
+  }
+
+  .hero img {
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
+  }
+}

@@ -1,0 +1,40 @@
+@import './../App.scss';
+
+footer {
+    color: var(--dark);
+}
+
+
+
+.dark {
+    background-color: var(--dark);
+    color: var(--white);
+    transition: all 400ms;
+
+
+    a,
+    i,
+    li {
+        color: var(--white);
+        transition: color 400ms;
+    }
+
+    a:hover {
+        color: var(--secondary-color);
+        transition: color 200ms ease;
+    }
+
+
+    footer {
+        color: var(--white);
+    }
+
+
+}
+
+
+.light {
+    background-color: var(--white);
+    color: var(--dark);
+    transition: all 400ms;
+}
