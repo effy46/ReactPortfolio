@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+## Personal Website
+My personal website. An MIT licensed,[React](https://reactjs.org/) application that built using modern javascript, based on create-react-app with React-Router, SCSS, and many other useful technologies.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
