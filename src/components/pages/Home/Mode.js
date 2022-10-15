@@ -8,9 +8,9 @@ export default function Mode({ darkMode, handleClick }) {
       <Box fontSize={'1.5rem'} sx={{ cursor: 'pointer', ":hover": { transform: 'translateY(-3px)', transition: transition } }}>
          {
             darkMode ?
-               <span onClick={handleClick} aria-label="Full Moon" role="img">🌚</span>
+               <span onClick={handleClick} aria-label="Dark Mode" title="Light Mode Switch" role="img">🌚</span>
                :
-               <span onClick={handleClick} aria-label="New Moon" role="img">🌝</span>
+               <span onClick={handleClick} aria-label="Light Mode" title="Dark Mode Switch" role="img">🌝</span>
          }
       </Box>
    )
