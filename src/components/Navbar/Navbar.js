@@ -14,7 +14,7 @@ const links = [
 
     {
         name: 'Home',
-        to: '/ReactPortfolio',
+        to: '/ReactPortfolio/',
         active: 'home'
     },
     {
@@ -25,7 +25,7 @@ const links = [
     {
         name: `${info.firstName} ${info.lastName}`,
         type: 'name',
-        to: '/ReactPortfolio',
+        to: '/ReactPortfolio/',
         active: 'home'
     },
 
@@ -39,7 +39,7 @@ const links = [
 
 export default function Navbar({ darkMode, handleClick }) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(location.pathname === '/ReactPortfolio/' ? 'home' : location.pathname.slice(1, location.pathname.length));
 
 
     return (
